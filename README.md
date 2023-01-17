@@ -8,6 +8,7 @@
 
 ## Project by : Karthi Balasundaram, Ashutosh Todwal
 
+[![Live Demo](images/009.png)](images/Christ_livedemo_daylight.mp4)
 
 **Abstract**:
 
