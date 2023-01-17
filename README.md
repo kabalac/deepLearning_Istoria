@@ -1,9 +1,13 @@
-﻿# Project Title --> Created an iPhone application and named it 
-as ISTORIA(Greek word meaning history).
+﻿# Project Title --> Created an iPhone application and named it as ISTORIA(Greek word meaning history).
 
-## Subject : Advanced Intelligent Systems and Deep Learning – CPS 584 01 Instructor : Mehdi R. Zargham 
+## Subject : Advanced Intelligent Systems and Deep Learning – CPS 584 01 
 
-## Project by : Karthi Balasundaram, Ashutosh Todwal 
+## Instructor : Mehdi R. Zargham 
+
+## Graduate Assistant : Sankarshan Dasgupta
+
+## Project by : Karthi Balasundaram, Ashutosh Todwal
+
 
 **Abstract**:
 
@@ -15,7 +19,7 @@ Every human comes across multiple statues in their day to day life and most of t
 
 **Project Description**: 
 
-In this work, we aim to develop a system using efficientNet\_lite4 [(1)](#_page4_x69.00_y422.00), a simple pre-trained CNN (convolutional neural network) model used for image classification. This model takes the number of images captured in various atmospheric conditions as input and gets trained accordingly with maximum accuracy, this pre-trained model is extremely lightweight and can be easily deployed to the mobile devices[(2)](#_page4_x69.00_y448.00) and that is our ultimate aim too. 
+In this work, we aim to develop a system using efficientNet\_lite4 [(1)](#References), a simple pre-trained CNN (convolutional neural network) model used for image classification. This model takes the number of images captured in various atmospheric conditions as input and gets trained accordingly with maximum accuracy, this pre-trained model is extremely lightweight and can be easily deployed to the mobile devices[(2)](#References) and that is our ultimate aim too. 
 
 **Purpose of the project**: 
 
@@ -29,7 +33,7 @@ Total of 155 raw images(datasets) of the sculpture(Christ the Teacher) was captu
 
 **Proposed method**: 
 
-Trained the model in jupyter notebook for 20 epochs, each epoch took around 15 minutes with total running time of 5 hours with training accuracy of 99.5%, saved the trained model as \*.tflite file which in turn was converted to \*.onnx file to be deployed into Unity development engine. An ONNX file or open neural network exchange file is 6 to 7 times faster than the original TFLite model and it works very well with larger datasets[(4)](#_page4_x69.00_y475.00) when deployed to an handheld device. 
+Trained the model in jupyter notebook for 20 epochs, each epoch took around 15 minutes with total running time of 5 hours with training accuracy of 99.5%, saved the trained model as \*.tflite file which in turn was converted to \*.onnx file to be deployed into Unity development engine. An ONNX file or open neural network exchange file is 6 to 7 times faster than the original TFLite model and it works very well with larger datasets[(4)](#References) when deployed to an handheld device. 
 
 **Details of implementation**: 
 
@@ -37,7 +41,7 @@ We have followed the below steps for deploying the trained model to iPhone:
 
 - Using Jupyter notebook trained the model using efficientnet\_lite4 CNN, 
 - After training for 20 epochs and with 99.5% training accuracy converted it to \*.tflite model 
-- Using Google Colab, converted the \*.tflite file to \*.onnx file by running few pip commands[(3)](#_page4_x69.00_y462.00), 
+- Using Google Colab, converted the \*.tflite file to \*.onnx file by running few pip commands[(3)](#References), 
 - Added the ONNX model to Unity development engine along with other assets such as trigger video, classification scripts, labels text file, etc., 
 - Then from Unity the iOS build has been extracted to the local system, 
 - Then the same has been deployed to iPhone 12 mini running under software version 15.1 using Xcode developer account. 
