@@ -33,7 +33,7 @@ Total of 155 raw images(datasets) of the sculpture(Christ the Teacher) was captu
 
 **Proposed method**: 
 
-Trained the model in jupyter notebook for 20 epochs, each epoch took around 15 minutes with total running time of 5 hours with training accuracy of 99.5%, saved the trained model as \*.tflite file which in turn was converted to \*.onnx file to be deployed into Unity development engine. An ONNX file or open neural network exchange file is 6 to 7 times faster than the original TFLite model and it works very well with larger datasets[(4)](/References) when deployed to an handheld device. 
+Trained the model in jupyter notebook for 20 epochs, each epoch took around 15 minutes with total running time of 5 hours with training accuracy of 99.5%, saved the trained model as \*.tflite file which in turn was converted to \*.onnx file to be deployed into Unity development engine. An ONNX file or open neural network exchange file is 6 to 7 times faster than the original TFLite model and it works very well with larger datasets[(4)](_#References) when deployed to an handheld device. 
 
 **Details of implementation**: 
 
