@@ -1,8 +1,13 @@
-﻿Final Project 
+﻿# Project Title --> Created an iPhone application and named it 
+as ISTORIA(Greek word meaning history).
 
-Subject : Advanced Intelligent Systems and Deep Learning – CPS 584 01 Instructor : Mehdi R. Zargham 
+## Subject : Advanced Intelligent Systems and Deep Learning – CPS 584 01 Instructor : Mehdi R. Zargham 
 
-Project by : Karthi Balasundaram, Ashutosh Todwal 
+## Project by : Karthi Balasundaram, Ashutosh Todwal 
+
+**Abstract**:
+
+Every human comes across multiple statues in their day to day life and most of the histories of well known sculptures are unknown to us. Designing a model to classify the images of those statues to be recognized and reveal history would be a great value addition for tourists, travelers, students, and many more audience. In this work, we aim to develop a system using convolutional neural network(CNN). This CNN model takes the number of images captured in various atmospheric conditions as input and gets trained accordingly with maximum accuracy using tensorflow and keras libraries. We aim to collect 100 to 130 raw images(datasets) of the sculpture(Christ the Teacher) from all possible directions, angles, and occlusion. The statue is located in front of the Fitz Hall within the campus of University of Dayton. The trained model will be then imposed into a handheld device so that any person who captures it in real time will get  to learn its history along with a brief description. The main aim is to design this model which can be used as an established method to provide knowledge of the well known statues which we come across in our life.
 
 **Introduction**: 
 
@@ -20,7 +25,7 @@ Project’s  main  goal  is  to  develop  a  deep  learning  model  using  pre  
 
 Total of 155 raw images(datasets) of the sculpture(Christ the Teacher) was captured from all possible directions, angles, and occlusion with iPhone 12 mini and iPhone 7 plus. The statue is located in front of the Fitz Hall within the campus of University of Dayton. In total we had around 4000 images for training for 24 sculptures out of which few were rejected because of resolution and format issues. Finalized 3615 images for training and 385 images for validation with 24 classes collected from all teams. Total training dataset is about 13.58 gigabytes and validation dataset is 1.47 gigabytes. Sample image of the selected statue is added below for reference, 
 
-![](Aspose.Words.62a6def4-d923-458c-812e-dcf6e6a555be.001.png) ![](Aspose.Words.62a6def4-d923-458c-812e-dcf6e6a555be.002.png)
+![](images/001.png) ![](images/002.png)
 
 **Proposed method**: 
 
@@ -45,19 +50,19 @@ The training and validation accuracy are plotted with number of epochs in x-axis
 
 The maximum training accuracy is 99.6% and it was achieved in the 15th epoch. 
 
-![](Aspose.Words.62a6def4-d923-458c-812e-dcf6e6a555be.003.jpeg)
+![](images/003.jpeg)
 
 The maximum validation accuracy is 82.34% and it was almost equal in all epochs. 
 
-![](Aspose.Words.62a6def4-d923-458c-812e-dcf6e6a555be.004.jpeg)
+![](images/004.jpeg)
 
 The training and validation losses are plotted with number of epochs in x-axis and loss in y-axis, the value of each 1.0 in x-axis corresponds to 5 epochs. 
 
 The final training loss is 0.027. 
 
-![](Aspose.Words.62a6def4-d923-458c-812e-dcf6e6a555be.005.jpeg)
+![](images/005.jpeg)
 
-![](Aspose.Words.62a6def4-d923-458c-812e-dcf6e6a555be.006.jpeg)
+![](images/006.jpeg)
 
 **Challenges faced**: 
 
@@ -70,7 +75,7 @@ The final training loss is 0.027.
 
 Atlast, the iPhone mobile application has been deployed and tested live on the statue ‘Christ the teacher’. Once the iPhone camera detects the accuracy of the statue to be greater than 90%, it triggers a video. Few screenshots are attached below. 
 
-![](Aspose.Words.62a6def4-d923-458c-812e-dcf6e6a555be.007.png) ![](Aspose.Words.62a6def4-d923-458c-812e-dcf6e6a555be.008.png) ![](Aspose.Words.62a6def4-d923-458c-812e-dcf6e6a555be.009.png)
+![](images/007.png) ![](images/008.png) ![](images/009.png)
 
 **References**: 
 
